@@ -1,0 +1,103 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: hsl(47, 88%, 63%);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    max-width: 90%;
+    width: 400px;
+    height: 510px;
+    border-radius: 20px;
+    text-align: left;
+    padding: 25px;
+    margin: auto;
+    color: hsl(0, 0%, 7%);
+    border: black solid 1px;
+    box-shadow: 10px 10px;
+    font-family: 'Figtree';
+    font-weight: 500;
+}
+
+.article-img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0 8px;
+    
+}
+
+.type {
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    background: hsl(47, 88%, 63%);
+    height: 2rem;
+    width: 6rem;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    margin-left: 8px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+.date {
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+a {
+    margin-left: 8px;
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover {
+    transition: all 0.1s;
+    color: hsl(47, 88%, 63%);
+}
+
+.description {
+    margin-left: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 0;
+    color: grey;
+}
+
+.img-name {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.img-name img {
+    max-width: 10%;
+}
+
+.img-name p {
+    display: inline;
+    font-weight: 800;
+}
+
+
+
